@@ -27,7 +27,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title> DATABASE </title>
+    <title> COLORS </title>
   </head>
   <body>
     <h1><a href="index.php">Colors</a></h1>
