@@ -9,7 +9,7 @@
 <body>
     <h1>직원 관리 시스템</h1>
     <form action="emp_select.php" method="GET">
-        <a href="emp_select.php"> (1) 직원 정보 조회 </a>
+        (1) 직원 정보 조회
         <input type="text" name="emp_num" placeholder="조회하고 싶은 직원 수">
         <input type="submit" value="Search">
     </form>    
