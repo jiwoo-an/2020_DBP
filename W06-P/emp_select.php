@@ -1,7 +1,6 @@
 <?php
     $link = mysqli_connect("localhost", "admin", "admin", "employees");
-    $filtered_emp_num = mysqli_real_escape_string($link, $_GET['emp_num']);
-    $query = "SELECT * FROM employees ORDER BY emp_no DESC LIMIT ".$filtered_emp_num;
+    $query = "SELECT * FROM employees ORDER BY emp_no DESC LIMIT 10";
     $result = mysqli_query($link, $query);
     // print_r($result); 
     $row = mysqli_fetch_array($result);
@@ -31,15 +30,7 @@
 
 <body>
     <h2><a href="index.php">직원 관리 시스템</a> | 직원 정보 조회</h2>
-    
-    <form action="emp_select.php" method="POST">
-        <label>검색하고 싶은 직원의 수
-            <input type="text" name="number" placeholder='1-100'>
-            <input type="submit" value="ok">
-        </label>
-    </form>
-
-    <table border="1">
+        <table border="1">
         <tr>
             <th>emp_no</th>
             <th>birth_date</th>
