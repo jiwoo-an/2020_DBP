@@ -6,7 +6,7 @@ MariaDB가 MySQL보다 가볍고 빠르다고 하는데 체감해본 적은 없�
 
 * 프론트엔드 클라이언트 사이드 언어 - HTML, CSS
 
-* 사용한 웹 서버 - Apache Web Server
+* 사용한 웹 서버 - Apache Web Server <br>
  가상 머신을 
 
 # 데이터 선택 이유
