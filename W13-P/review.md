@@ -22,7 +22,7 @@ PHP에서는 <$= $>로 썼는데 JSP는 <%= %>로 사용한다.
 
 # 문제가 발생하거나 고민한 내용
 이클립스에서 서버를 찾는데 Apache 폴더가 없었다. <br>
-https://qastack.kr/programming/2000078/apache-tomcat-not-showing-in-eclipse-server-runtime-environments
+https://qastack.kr/programming/2000078/apache-tomcat-not-showing-in-eclipse-server-runtime-environments <br>
 여기에서 하라는 대로 했더니 잘 Apache 폴더가 나와서 서버 연결을 할 수 있었다.
 
 이클립스에서 오라클DB로 연결을 하려 했지만 계속 ping failed가 떴다. 
