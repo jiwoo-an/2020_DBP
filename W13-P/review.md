@@ -26,7 +26,7 @@ https://qastack.kr/programming/2000078/apache-tomcat-not-showing-in-eclipse-serv
 여기에서 하라는 대로 했더니 잘 Apache 폴더가 나와서 서버 연결을 할 수 있었다.
 
 이클립스에서 오라클DB로 연결을 하려 했지만 계속 ping failed가 떴다. <br>
-SQL Developer에 들어가서 똑같이 설정했는데도 ping failed가 떴다. <br>
+SQL Developer에 들어가 똑같이 설정했는데도 ping failed가 떴다. <br>
 HR 비밀번호가 잘못된 탓이었는데 sql plus system으로 들어가서 ALTER 명령어를 사용해 비밀번호를 바꿔주니 잘 됐다.
 
 
@@ -37,11 +37,11 @@ https://youtu.be/PjEYasjb-EY
 
 \+
 ``` 
-
+JSP는 처음 사용해봐서 신기했다. PHP랑 많이 비슷한 것 같다.
 ```
 \-
 ```
-
+비슷한 게 많아서 그런지 빠르게 진도가 나갔다.
 ```
 !
 ```
