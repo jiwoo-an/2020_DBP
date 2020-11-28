@@ -32,7 +32,7 @@ HR 비밀번호가 잘못된 탓이었는데 sql plus system으로 들어가서 
 
 ## 과제 링크
 ``` 
-
+https://youtu.be/PjEYasjb-EY
 ```
 
 \+
