@@ -6,6 +6,8 @@ noSQL은 SQL보다 확장성, 성능, 속도면에서 더 좋다.
 
 MongoDB는 document기반 데이터베이스이다. 테이블형태가 아니라 key: value의 형태로 나타낸다.
 
+
+
 * [ ]를 이용해 두 개 이상의 value값을 입력할 수 있다.
 ``` 
 groups:["Korea", "Seoul"]
