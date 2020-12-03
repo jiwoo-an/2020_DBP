@@ -11,11 +11,13 @@ MongoDB는 document기반 데이터베이스이다. 테이블형태가 아니라
 groups:["Korea", "Seoul"]
 ```
 
+
 데이터 생성
 ``` 
 하나 입력: db.컬렉션명.insertOne()
 여러 항목 입력: db.컬렉션명.insertMany()
 ``` 
+
 
 데이터 조회
 ``` 
@@ -23,6 +25,7 @@ groups:["Korea", "Seoul"]
 항목 조회: db.myCollection.find({x:1})
 id 안보이게 조회: db.myCollection.find({x:1}, {_id:false})
 ``` 
+
 
 커서를 사용해 데이터에 접근할 수 있다.
 ```
@@ -32,10 +35,12 @@ id 안보이게 조회: db.myCollection.find({x:1}, {_id:false})
   true면 존재 false면 없음.
 ``` 
 
+
 데이터를 배열로 이용
 ``` 
 db.컬렉션명.find().toArray()
 ``` 
+
 
 데이터 수정
 ``` 
@@ -45,6 +50,7 @@ db.컬렉션명.find().toArray()
 데이터 업데이트: db.컬렉션명.updateMany()
 db.myCollection.updateMany({x:6}, {$set:{"y.$[e]": 17}}, {arrayFilters:[{e:7}]})
 ``` 
+
 
 데이터삭제
 ``` 
