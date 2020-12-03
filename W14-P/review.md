@@ -6,20 +6,20 @@ noSQL은 SQL보다 확장성, 성능, 속도면에서 더 좋다.
 
 MongoDB는 document기반 데이터베이스이다. 테이블형태가 아니라 key: value의 형태로 나타낸다.
 
-*[ ]를 이용해 두 개 이상의 value값을 입력할 수 있다.
+* [ ]를 이용해 두 개 이상의 value값을 입력할 수 있다.
 ``` 
 groups:["Korea", "Seoul"]
 ```
 
 
-*데이터 생성
+* 데이터 생성
 ``` 
 하나 입력: db.컬렉션명.insertOne()
 여러 항목 입력: db.컬렉션명.insertMany()
 ``` 
 
 
-*데이터 조회
+* 데이터 조회
 ``` 
 전체 조회: db.컬렉션명.find()
 항목 조회: db.myCollection.find({x:1})
@@ -27,7 +27,7 @@ id 안보이게 조회: db.myCollection.find({x:1}, {_id:false})
 ``` 
 
 
-*커서를 사용해 데이터에 접근할 수 있다.
+* 커서를 사용해 데이터에 접근할 수 있다.
 ```
 커서 생성: var cursor = db.컬렉션명.find()
 커서 이동: cursor.next()
@@ -36,7 +36,7 @@ id 안보이게 조회: db.myCollection.find({x:1}, {_id:false})
 ``` 
 
 
-*데이터를 배열로 이용
+* 데이터를 배열로 이용
 ``` 
 db.컬렉션명.find().toArray()
 ``` 
@@ -52,7 +52,7 @@ db.myCollection.updateMany({x:6}, {$set:{"y.$[e]": 17}}, {arrayFilters:[{e:7}]})
 ``` 
 
 
-*데이터삭제
+* 데이터삭제
 ``` 
 하나 삭제: db.컬렉션명.deleteOne()
 ex)db.myCollection.deleteOne(x:4)
