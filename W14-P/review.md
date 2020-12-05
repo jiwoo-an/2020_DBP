@@ -72,10 +72,8 @@ db.dropDatabase()
 도큐먼트를 생성하고 id를 저장하려고 했는데 ObjectId()가 뜨지 않았다. 'insertedId'를 해야 하는데 'insertId'를 하고 있어서 되지 않았다.
 
 
-## 과제 링크
-``` 
+## 과제 링크 
 https://youtu.be/Lv2AW_X2-pc
-```
 
 \+
 ``` 
