@@ -69,21 +69,21 @@ db.dropDatabase()
 
 
 # 문제가 발생하거나 고민한 내용
-도큐먼트를 생성하고 id를 저장하려고 했는데 ObjectId()가 뜨지 않았다. '.insertedId'를 해야 하는데 'insertId'를 하고 있어서 되지 않았다.
+도큐먼트를 생성하고 id를 저장하려고 했는데 ObjectId()가 뜨지 않았다. 'insertedId'를 해야 하는데 'insertId'를 하고 있어서 되지 않았다.
 
 
 ## 과제 링크
 ``` 
-
+https://youtu.be/Lv2AW_X2-pc
 ```
 
 \+
 ``` 
-
+MongoDB Compass 사용이 편리하다.
 ```
 \-
 ```
-
+MongoDB에 한글을 넣으려고 하면 이상하게 저장된다.
 ```
 !
 ```
