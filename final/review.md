@@ -6,10 +6,12 @@
 
 
 ## 데이터 출처
-http://data.seoul.go.kr/dataList/OA-20279/S/1/datasetView.do
+```
+<a href="http://data.seoul.go.kr/dataList/OA-20279/S/1/datasetView.do">서울 열린데이터 광장</a>
+```
 
 (1) 서울시 일별 확진자 정보
-``` 
+```
 
 ```
 
