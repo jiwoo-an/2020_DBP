@@ -29,4 +29,4 @@
 
 
 # 데이터 출처
-<a target="_blank" href="http://data.seoul.go.kr/dataList/OA-20279/S/1/datasetView.do" >서울 열린데이터 광장, 서울시 코로나19 확진자 현황</a>
+<a href="http://data.seoul.go.kr/dataList/OA-20279/S/1/datasetView.do" >서울 열린데이터 광장, 서울시 코로나19 확진자 현황</a>
